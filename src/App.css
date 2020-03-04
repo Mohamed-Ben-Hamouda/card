@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.Card {
+  border: 1px solid;
+  width: 30%;
+  height: 266px;
+    background: #124164;
+    border-radius: 10px;
+    position: relative;
+    color: aliceblue;
+    background-image: url("https://thumbs.dreamstime.com/z/fond-dynamique-abstrait-de-l-arc-en-ciel-3d-13542509.jpg");
+  background-size: cover;
+  background-color: transparent;
+    
+    
+    
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.credit-card{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+.input-items{
+  scroll-behavior: auto;
+  /* filter: blur(1.5rem); */
+  margin: -11px;
+}
+.secondinput-items{
+  margin: 108px;
 }
 
-.App-link {
-  color: #61dafb;
+.company-items{
+  position: absolute;
+  left: 40%;
+}
+.puce-items{
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+.numcomp-items{
+  position: absolute;
+  bottom: 38%;
+  right: 25%;
+  font-size: 5px;
+}
+.logo-items{
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+.datevalid-items{
+  position: absolute;
+  bottom: 18%;
+    left: 43%;
+}
+.foulan-items{
+  position: absolute;
+  top: 82%;
+    left: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
